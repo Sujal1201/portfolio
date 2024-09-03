@@ -1,0 +1,55 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: none;
+  }
+  
+  .card h3 {
+    color: #ff4081;
+  }
+  
+  .card p {
+    color: #b0b0b0;
+  }
+  
+  .social-icons {
+    margin: 20px 0;
+  }
+  
+  .social-icons a {
+    color: #ff4081;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  .form-container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .form-container label {
+    color: #e0e0e0;
+  }
+  
+  .form-container button {
+    background-color: #ff4081;
+    border: none;
+    color: #ffffff;
+  }
+  
+  .form-container button:hover {
+    background-color: #e63672;
+  }
+  
+  .contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
