@@ -63,3 +63,49 @@ nav a.active{
     color: #b74b4b;
     border-bottom: 3px solid #b74b4b;
 }
+
+.card-container {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background: linear-gradient(135deg, #615e5e 0%, #000000 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 300px;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-link {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #b74b4b;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid #b74b4b;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card-link:hover {
+    background-color: #b74b4b;
+    color: white;
+}
