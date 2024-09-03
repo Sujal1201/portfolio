@@ -24,7 +24,7 @@ body{
 
 header{
     margin-top: 20px;
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -229,16 +229,16 @@ span{
         content: "Web Developer";
     }
     21%, 40%{
-        content: "App Developer";
+        content: "Developer";
     }
     41%, 60%{
         content: "Web Designer";
     }
     61%, 80%{
-        content: "Programer";
+        content: "Youtuber";
     }
     81%, 100%{
-        content: "AI Developer";
+        content: "Script Writer";
     }
 }
 
