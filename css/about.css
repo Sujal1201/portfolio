@@ -123,7 +123,7 @@ nav a.active {
 /* New Paragraph Style */
 p {
     padding: 10px;
-    border: 2px solid rgb(73, 69, 69);
+    /* border: 2px solid rgb(73, 69, 69); */
     border-radius: 15px;
     font-family: cursive;
     margin: 10px;
