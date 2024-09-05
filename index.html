@@ -3,72 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore Sujal Patil's portfolio showcasing web development projects and tech innovations.">
-    <meta name="keywords" content="Sujal Patil, web development, portfolio, full-stack developer, programming, tech solutions">
-    
-    <!-- Open Graph Meta Tags for Social Sharing -->
-    <meta property="og:title" content="Sujal Patil's Portfolio">
-    <meta property="og:description" content="Explore Sujal Patil's projects, skills, and journey in web development.">
-    <meta property="og:image" content="main.jpg">
-    <meta property="og:url" content="https://sujalpatil.vercel.app">
-    <meta property="og:type" content="website">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
-
-    <!-- External Stylesheets -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>Sujal Patil | Portfolio</title>
+    <meta name="description" content="Explore Sujal Patil's portfolio showcasing projects, skills, and professional journey. Dive into web development, software engineering, and innovative tech solutions.">
+    <meta name="keywords" content="Sujal Patil, portfolio, web development, software engineering, projects, tech solutions, frontend development, backend development, full-stack developer, programming, technology, Vercel">
+    <title>Portfolio Website</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
     <header>
-        <a href="/" class="logo" aria-label="Go to Sujal's homepage">Sujal's Portfolio</a>
+        <a href="#" class="logo">sujal's Portfolio</a>
     </header>
-    
-    <main>
-        <section class="home" aria-labelledby="hero-title">
-            <div class="home-img">
-                <img src="main.jpg" alt="Sujal Patil's profile picture" loading="lazy">
+    <section class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="Sujal's profile picture">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>sujal</span></h1>
+            <h3 class="typing-text">I'm a <span id="changing-text"></span></h3>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/sujal-patil-b90953313?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bkn4Ce%2BLtSlaTTo%2FoqsXStQ%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/sujal1201"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/@patil_sujal5150"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://instagram.com/sujalpatil3799"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <div class="home-content">
-                <h1 id="hero-title">Hi, It's <span>Sujal</span></h1>
-                <h2 class="typing-text">I'm a <span id="changing-text"></span></h2>
-
-                <!-- Social Icons -->
-                <nav aria-label="Social media links">
-                    <ul class="social-icons">
-                        <li><a href="https://www.linkedin.com/in/sujal-patil-b90953313" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a></li>
-                        <li><a href="https://github.com/sujal1201" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a></li>
-                        <li><a href="https://x.com/@patil_sujal5150" aria-label="Twitter Profile"><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href="https://instagram.com/sujalpatil3799" aria-label="Instagram Profile"><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
-                </nav>
-
-                <a href="services.html" class="btn explore-more-btn" aria-label="Explore Sujal's Work">Explore My Work</a>
-            </div>
-        </section>
-    </main>
-
-    <!-- External Scripts -->
+            <a href="services.html" class="btn explore-more-btn">Explore My Work</a>
+        </div>
+    </section>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="js/script.js"></script>
     <script>
         AOS.init({ offset: 0 });
-
-        // Add dynamic text for "I'm a" section
-        const changingText = document.getElementById('changing-text');
-        const roles = ['Full Stack Developer', 'Web Developer', 'Tech Enthusiast'];
-        let index = 0;
-
-        function changeRole() {
-            changingText.textContent = roles[index];
-            index = (index + 1) % roles.length;
-        }
-
-        setInterval(changeRole, 3000); // Change role every 3 seconds
     </script>
 </body>
 </html>
